@@ -1,0 +1,31 @@
+extends layout.jade
+
+block content
+  
+  .ui.orange.four.item.menu
+    a.item.active Popular
+    a.item Newest
+    a.item Comments
+    a.item Top Stories
+        
+  .link-list
+    mixin post
+      a.link-submission
+        .link-upvote
+          .ui.vertical.basic.buttons
+            .ui.basic.button 7
+            .ui.animated.fade.button(tabindex="0")
+              .visible.content
+                i.arrow.up.icon
+              .hidden.content Vote
+            .ui.basic.button
+              i.comment.outline.icon &nbsp;5
+        .link-title-description 
+          h1.link.title This is a great link 
+          .link-description.ui.text Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui.
+      hr
+    +post
+    +post
+    +post
+    +post
+    +post

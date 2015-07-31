@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-if": "^1.2.5",
+    "gulp-jade": "^1.0.1",
+    "gulp-sass": "^2.0.4"
+  },
+  "dependencies": {
+    "semantic-ui-icon": "^2.0.5",
+    "semantic-ui-search": "^2.0.5"
+  }
+}

@@ -1,0 +1,33 @@
+header
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: center
+  margin: 1.5em 0
+
+  @media (max-width: 815px)
+    display: block
+    text-align: center
+
+  #logo-image
+    display: flex
+    align-items: center
+
+    @media(max-width: 815px)
+      display: block
+    img
+      width: 100px
+      height: auto
+
+    #logo
+      font:
+        size: 3em
+        weight: 700
+
+    #headline
+      min-width: 100%
+      font:
+        size: 1em
+        weight: 300
+      @media (max-width: 815px)
+        margin: 1em
